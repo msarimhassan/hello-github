@@ -9,6 +9,8 @@ struct node
 	node *child;
 	 node ()
 	 {
+
+		 cout << "AC was here" << endl;
 	 	next=0;
 	 	previous=0;
 	 	child=0;
